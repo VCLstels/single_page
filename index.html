@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
+    <link rel="stylesheet" href="css/tabs.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+    <link rel="stylesheet" href="css/review.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans&display=swap&subset=cyrillic-ext"
+      rel="stylesheet"
+    />
+    <title>Project</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="./assets/images/6-layers.png" />
+      </div>
+
+      <div class="header-menu">
+        <div class="menu-item">HOME</div>
+
+        <div class="menu-item">HOW IT WORKS</div>
+
+        <div class="menu-item">DISCOVER A PROJECT</div>
+
+        <div class="menu-item">BLOG</div>
+
+        <div class="menu-item">FIND OUT MORE</div>
+      </div>
+
+      <div class="login-button-container">
+        <div class="common-button-login">
+          <div class="radius-left-login"></div>
+
+          <div class="button-login">
+            LOGIN
+          </div>
+
+          <div class="radius-right-login"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-container">
+      <div class="carousel-buttons">
+        <div class="carousel-button" onClick="handleClick('left')">
+          <
+        </div>
+        <div class="carousel-button" onClick="handleClick('right')">
+          >
+        </div>
+      </div>
+
+      <div id="carousel-body">
+        <div class="carousel-banner">
+          <div class="filter"></div>
+
+          <div class="carousel">
+            <div class="big-title">
+              Intellectual Property has the Shelf Life
+            </div>
+
+            <div class="small-title">of a Banana.</div>
+
+            <div class="common-button-member">
+              <div class="radius-left-member"></div>
+
+              <div class="button-member">
+                BECOME A MEMBER
+              </div>
+
+              <div class="radius-right-member"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-banner">
+          <div class="filter"></div>
+
+          <div class="carousel">
+            <div class="big-title">
+              Intellectual Property has the Shelf Life
+            </div>
+
+            <div class="small-title">of a Banana.</div>
+
+            <div class="common-button-member">
+              <div class="radius-left-member"></div>
+
+              <div class="button-member">
+                BECOME A MEMBER
+              </div>
+
+              <div class="radius-right-member"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="many-Text">
+      <div class="little-Picture">
+        <img src="./assets/images/Shape_846.jpg" />
+      </div>
+
+      <div class="gray-text">
+        OUR WORK IS THE PRESENTATION OF OUR CAPABILITIES.
+      </div>
+
+      <div class="different-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation.
+      </div>
+
+      <div class="different-text">
+        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur.
+      </div>
+    </div>
+
+    <div class="tabs-header">
+      <div class="tabs">
+        <div id="line-container">
+          <div id="line"></div>
+        </div>
+
+        <div class="tab" onClick="changeTab('1')">
+          <div class="tab-number" id="tab-1">1</div>
+          <div class="tab-title">Simple</div>
+        </div>
+
+        <div class="tab" onClick="changeTab('2')">
+          <div class="tab-number" id="tab-2">2</div>
+          <div class="tab-title">Transparent</div>
+        </div>
+
+        <div class="tab" onClick="changeTab('3')">
+          <div class="tab-number" id="tab-3">3</div>
+          <div class="tab-title">Collaborative</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="body-container">
+      <div id="tabs-body">
+        <div class="tab-container">
+          <div class="tab-content">
+            <div class="tab-image">
+              <img src="./assets/images/glasses.png" />
+            </div>
+
+            <div class="tab-article">
+              <div class="tab-article-title">
+                Browse projects, like booking a hotel online!
+              </div>
+
+              <div class="tab-article-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                provident corrupti excepturi suscipit ipsam illum neque in esse,
+                quia dolorum libero possimus odit. Nam accusantium quidem quo
+                aspernatur cum autem.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-container">
+          <div class="tab-content">
+            <div class="tab-image">
+              <img src="./assets/images/glasses.png" />
+            </div>
+
+            <div class="tab-article">
+              <div class="tab-article-title">
+                Browse projects, like booking a hotel online!
+              </div>
+
+              <div class="tab-article-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                provident corrupti excepturi suscipit ipsam illum neque in esse,
+                quia dolorum libero possimus odit. Nam accusantium quidem quo
+                aspernatur cum autem.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-container">
+          <div class="tab-content">
+            <div class="tab-image">
+              <img src="./assets/images/glasses.png" />
+            </div>
+
+            <div class="tab-article">
+              <div class="tab-article-title">
+                Browse projects, like booking a hotel online!
+              </div>
+
+              <div class="tab-article-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                provident corrupti excepturi suscipit ipsam illum neque in esse,
+                quia dolorum libero possimus odit. Nam accusantium quidem quo
+                aspernatur cum autem.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block-items">
+      <div class="card" id="sofa-card">
+        <div class="picture">
+          <img src="./assets/images/Vector Smart Object.png" />
+        </div>
+
+        <div class="main-block">
+          <div class="text-title">
+            Find Properties
+          </div>
+
+          <div class="text-usually">
+            Sing up browse the portfolio. Your journey to becoming a rea estate
+            baron starts here
+          </div>
+
+          <div class="button-member" id="first-button">
+            Become a Member
+          </div>
+        </div>
+      </div>
+
+      <div class="card" id="wallet-card">
+        <div class="picture">
+          <img src="./assets/images/Vector Smart Object 2.png" />
+        </div>
+
+        <div class="main-block">
+          <div class="text-title">
+            Find Buyers
+          </div>
+
+          <div class="text-usually">
+            Sign up to browse the portfolio. Your journey to becoming a real
+            estate baron starts here.
+          </div>
+
+          <div class="button-member" id="second-button">
+            Submit your Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="cards-container">
+        <div class="cards-header">
+          <div class="cards-article">
+            <div class="cards-title">Featured Projects</div>
+
+            <div class="cards-text">
+              Brief details of new and popular projects. To view full listing,
+              you will be required to sign up and become a member
+            </div>
+          </div>
+
+          <div class="cards-button">
+            <div class="button-member" id="card">
+              Become a Member
+            </div>
+          </div>
+        </div>
+
+        <div class="cards-body">
+
+          <div class="cards-card">
+            <div class="card-image">
+              <div class="card-block-image">
+                <div class="card-corner">New</div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <div class="card-feed">
+                <div class="card-title">
+                  Ontario Tower , LONDON
+                </div>
+
+                <div class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Dolorum sed voluptatem eos eaque nostrum dicta aliquam ullam
+                  consectetur.
+                </div>
+
+                <div class="card-progress">
+                  <div class="card-progress-fill"></div>
+                </div>
+              </div>
+
+              <div class="under-progress">
+                <div class="left-text-progress">10% Funcled</div>
+                <di class="right-text-progress">8 Days Left</di>
+              </div>
+
+              <div class="card-footer">
+                See Project Details
+                <div class="card-footer-button"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-card">
+            <div class="card-image">
+              <div class="card-block-image">
+                <div class="card-corner">New</div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <div class="card-feed">
+                <div class="card-title">
+                  Ontario Tower , LONDON
+                </div>
+
+                <div class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Dolorum sed voluptatem eos eaque nostrum dicta aliquam ullam
+                  consectetur.
+                </div>
+
+                <div class="card-progress">
+                  <div class="card-progress-fill" id="fill-second"></div>
+                </div>
+              </div>
+
+              <div class="under-progress">
+                <div class="left-text-progress">90% Funcled</div>
+                <div class="right-text-progress">10 Days Left</div>
+              </div>
+
+              <div class="card-footer">
+                See Project Details
+                <div class="card-footer-button"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-card">
+            <div class="card-image">
+              <div class="card-block-image">
+                <div class="card-corner">New</div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <div class="card-feed">
+                <div class="card-title">
+                  Ontario Tower , LONDON
+                </div>
+
+                <div class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Dolorum sed voluptatem eos eaque nostrum dicta aliquam ullam
+                  consectetur.
+                </div>
+
+                <div class="card-progress">
+                  <div class="card-progress-fill" id="fill-third"></div>
+                </div>
+              </div>
+
+              <div class="under-progress">
+                <div class="left-text-progress">10% Funcled</div>
+                <di class="right-text-progress">8 Days Left</di>
+              </div>
+
+              <div class="card-footer">
+                See Project Details
+                <div class="card-footer-button"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="review-service">
+      <span class="review-header">
+        <h1 id="review-text">
+          Be Part of a Growing 
+          International Community
+        </h1>
+        <h2 id="review-under-text">
+          One of the challenges in networking 
+          is everybody thinks it's making
+          cold calls to strangers. Actually, it's 
+          <p>the people who already have 
+            strong trust relationships with you
+          </p>
+        </h2>
+      </span>
+
+      <div class="review-two-message">
+
+        <div class="review-first-message">
+          <div class="review-message-text">
+            <h1 id="review-feedback">One of the best</h1>
+            <h2 id="review-feedback-text">
+              Lorem ipsum dolor sit amet, 
+              consectetur adipisicing 
+              <p>
+                elit, sed do 
+                eiusmod taempor incididunt ut labore et 
+              </p>
+              <p>
+              dolore magna aliqua.</p></h2>
+          </div>
+
+          <div class="review-block-corner"></div>
+
+          <div class="review-message-speaker">
+            <div class="review-image-david">
+            <img src="./assets/images/david.png" >
+          </div>
+            
+            <div class="review-text-image">
+              David Beckham
+            </div>
+          </div>
+        </div>
+
+        <div class="review-second-message">
+          <div class="review-message-text">
+            <h1 id="review-feedback">Exellent Service</h1>
+            <h2 id="review-feedback-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
+              <p>
+              do eiusmod taempor incididunt ut labore et dolore magna
+              </p>
+              <p>
+              aliqua.</p></h2>
+          </div>
+
+          <div class="review-block-corner"></div>
+
+          <div class="review-message-speaker">
+            <div class="review-image-david">
+            <img src="./assets/images/david2.png" >
+          </div>
+            
+          <div class="review-text-image">
+            David Beckham
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="lowest-level">
+      <div class="lowest-picture">
+        <img src="./assets/images/Layer 25.png" />
+      </div>
+
+      <div class="lowest-text">
+        Copyright © 2001 - 2014 Cssauthor.com
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

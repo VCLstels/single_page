@@ -1,0 +1,115 @@
+/* REVIEW */
+
+.review-service {
+  background-image: url("../assets/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 650px;
+}
+
+.review-common {
+  display: flex;
+}
+
+.review-header {
+  color: yellowgreen;
+  font-size: 20px;
+  margin-top: 150px;
+}
+
+#review-text {
+  text-align: center;
+}
+
+#review-under-text {
+  font-size: 18px;
+  font-weight: 300;
+  color: gray;
+  line-height: 15px;
+  text-align: center;
+}
+
+.review-two-message {
+  margin-top: 150px;
+  display: flex;
+  width: 100%;
+  height: 55%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.review-first-message {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 100%;
+  justify-content: center;
+}
+.review-second-message {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 100%;
+  justify-content: center;
+}
+
+.review-message-text {
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  line-height: 25px;
+}
+
+.review-block-corner {
+  display: flex;
+  align-self: center;
+  margin-right: 90px;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  background:linear-gradient(-45deg, transparent 25px,white 0);
+}
+
+/* TEXT MESSAGE AND HEADER */
+
+#review-feedback {
+  text-align: center;
+  color: yellowgreen;
+  font-weight: bold;
+}
+
+#review-feedback-text {
+  line-height: 12px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* SPEAKER David Beckham */
+
+.review-message-speaker {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100px;
+  width: 100%;
+}
+
+.review-image-david {
+  height: 60px;
+}
+
+.review-text-image {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+
+
+

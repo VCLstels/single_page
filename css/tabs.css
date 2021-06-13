@@ -1,0 +1,131 @@
+/* HEADER */
+
+.tabs-header {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.tabs {
+  width: 80%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  border-color: #959595;
+  padding-bottom: 30px;
+}
+
+.tab {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 31px;
+  cursor: pointer;
+}
+
+.tab-number {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #959595;
+  transition: background-color 0.5s;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-title {
+  margin-left: 30px;
+}
+
+#tab-1 {
+  background-color: #add136;
+}
+
+#line-container {
+  z-index: -1;
+  position: absolute;
+  min-width: 1000px;
+  width: 80%;
+  height: 120px;
+}
+
+#line {
+  width: 30%;
+  height: 100%;
+  transition: margin-left 0.5s ease;
+  padding-bottom: 30px;
+  border-bottom: 2px solid;
+  border-color: #add136;
+}
+
+/* BODY */
+
+.body-container {
+  overflow: hidden;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 50px;
+}
+
+#tabs-body {
+  transition: margin-left 0.5s ease;
+  width: 300%;
+  height: 100%;
+  display: flex;
+}
+
+.tab-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tab-content {
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 80%;
+  height: 100%;
+}
+
+.tab-image {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-article {
+  width: 70%;
+  padding-right: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.tab-article-title {
+  font-size: 30px;
+  color: #add136;
+  padding-bottom: 25px;
+  line-height: 2em;
+}
+
+.tab-article-text {
+  line-height: 2em;
+  font-size: 20px;
+}

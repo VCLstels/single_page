@@ -1,0 +1,193 @@
+.cards {
+  padding-top: 45px;
+  margin-top: 70px;
+  width: 100%;
+  height: 850px;
+  display: flex;
+  justify-content: center;
+}
+
+.cards-container {
+  width: 80%;
+  height: 100%;
+}
+
+.cards-header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+
+.cards-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80%;
+}
+
+.cards-article {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.cards-button {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-title {
+  line-height: 0;
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.cards-text {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+#card {
+  height: 55px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #666666;
+  color: #666666;
+  border-radius: 10px;
+}
+
+.card-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-card {
+  border: 1px solid rgba(140, 140, 140, 0.8);
+  border-radius: 20px;
+  width: 30%;
+  height: 90%;
+}
+
+.card-image {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 40%;
+}
+
+.card-corner {
+  line-height: 40px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  margin-top: -85px;
+  margin-left: -85px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transform: rotate(-45deg);
+  background-color: #add136;
+}
+
+.card-block-image {
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url("../assets/images/Layer16.png");
+  border-radius: 20px 20px 0 0;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+}
+
+.card-feed {
+  width: 90%;
+  height: 70%;
+}
+
+.card-footer {
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  border-top: 1px solid #666666;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 90%;
+  height: 20%;
+}
+
+.card-footer-button {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 15px solid #add136;
+  border-bottom: 10px solid transparent;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+
+.card-title,
+.card-text,
+.card-progress {
+  width: 100%;
+}
+
+.card-title {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.card-text {
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.card-progress {
+  height: 15px;
+  width: 100%;
+  margin-top: 20%;
+  background-color: gray;
+  border-radius: 9px;
+}
+
+.card-progress-fill {
+  width: 10%;
+  height: 15px;
+  background-color: #add136;
+  border-radius: 9px 0 0 9px;
+}
+
+#fill-second {
+  width: 90%;
+}
+
+#fill-third {
+  width: 60%;
+}
+
+.under-progress {
+  width: 80%;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
